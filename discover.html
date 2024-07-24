@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" id="style-link" />
+    <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/swiper-bundle.min.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+    <script src="./assets/js/nav.js" defer></script>
+    <script src="./assets/js/darkMode.js" defer></script>
+    <title>App Store</title>
+  </head>
+  <body class="container-fluid bg-side">
+    <!-- phone search bar -->
+    <header
+      class="bg-side phone-show phone-search-bar py-3 border-bottom border-dark border-1"
+    >
+      <div class="row">
+        <div class="col-12 px-4">
+          <form action="" class="w-100 position-relative">
+            <input
+              type="text"
+              placeholder="جستوجو..."
+              class="border-0 bg-search ps-2 pe-5 text-white search_input w-100"
+            />
+            <span class="material-symbols-outlined search_icon text-white">
+              search
+            </span>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="row vh-100 main-phone-pos">
+      <div
+        class="col-2 phone-none border-end border-1 border-dark vh-100 bg-side overflow-y-scroll p-3 d-flex flex-column justify-content-between"
+      >
+        <ul class="list-unstyled">
+          <li>
+            <form action="" class="w-100 position-relative">
+              <input
+                type="text"
+                placeholder="جستوجو..."
+                class="border-0 bg-search ps-2 pe-5 text-white search_input w-100"
+              />
+              <span class="material-symbols-outlined search_icon text-white">
+                search
+              </span>
+            </form>
+          </li>
+          <li
+            class="d-flex align-items-center gap-2 mt-4 px-2 bg-side--item side--item c-p"
+          >
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 b side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-between gap-2">
+          <div class="c-p d-flex align-items-center gap-3">
+            <img
+              src="./assets/image/user.jpg"
+              class="user_photo rounded-circle u-n"
+              alt=""
+            />
+            <span class="text-white fw-bolder fs-9"> نام کاربری </span>
+          </div>
+          <div
+            id="dark-btn"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <span
+              class="material-symbols-outlined text-warning c-p u-n"
+              id="l-btn"
+            >
+              wb_sunny
+            </span>
+            <span
+              class="material-symbols-outlined d-none text-p c-p u-n"
+              id="d-btn"
+            >
+              dark_mode
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-10 px-md-5 bg-main vh-100 overflow-scroll">
+        <!-- --1 -->
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              class="bg-img-box-1 p-3 round-b-m d-flex justify-content-center align-items-end"
+            >
+              <div
+                class="col-md-4 justify-content-center align-items-center bg-glassy text-black text-center p-3 d-flex flex-column gap-3"
+              >
+                <span>لورم ایپسوم </span>
+                <h6 class="fw-bolder fs-5">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                </h6>
+                <button class="btn-primary t-w round-m fw-bolder btn">
+                  لورم ایپسوم متن
+                </button>
+                <span class="text-mello-gray fs-11"
+                  >لورم ایپسوم متن ساختگی با
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --2 -->
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="swiper9 position-relative overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+                <div class="swiper-slide u-n">
+                  <div
+                    class="bg-cat w-100 py-1 pe-2 round-m d-flex align-items-center justify-content-around gap-2"
+                  >
+                    <img
+                      src="./assets/image/audio-book_15190603.png"
+                      class="w-30px"
+                      alt=""
+                    />
+                    <span class="fw-bold text-white fs-10">کتاب صوتی</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --3 -->
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="swiper4 position-relative overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/3d-rendering-cartoon-man-beach.jpg"
+                    alt=""
+                    class="w-100 round-m"
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/3d-rendering-cartoon-man-beach.jpg"
+                    alt=""
+                    class="w-100 round-m"
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/3d-rendering-cartoon-man-beach.jpg"
+                    alt=""
+                    class="w-100 round-m"
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/3d-rendering-cartoon-man-beach.jpg"
+                    alt=""
+                    class="w-100 round-m"
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/3d-rendering-cartoon-man-beach.jpg"
+                    alt=""
+                    class="w-100 round-m"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --4 -->
+        <div class="row mt-4">
+          <div class="col-md-12 position-relative overflow-hidden">
+            <div class="swiper2 position-relative overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="p-3">
+                    <div
+                      class="d-flex flex-column gap-2 overflow-hidden round-m"
+                    >
+                      <img
+                        src="./assets/image/books-forming-bridge-glasses.jpg"
+                        alt=""
+                        class="u-n"
+                      />
+                      <div>
+                        <span class="fs-11 text-mello-gray">لورم ایپسوم </span>
+                        <h6 class="text-white">
+                          لورم ایپسوم متن ساختگی با تولید سادگی
+                        </h6>
+                        <span class="fs-11 text-mello-gray"
+                          >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ، و
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="p-3">
+                    <div
+                      class="d-flex flex-column gap-2 overflow-hidden round-m"
+                    >
+                      <img
+                        src="./assets/image/books-forming-bridge-glasses.jpg"
+                        alt=""
+                        class="u-n"
+                      />
+                      <div>
+                        <span class="fs-11 text-mello-gray">لورم ایپسوم </span>
+                        <h6 class="text-white">
+                          لورم ایپسوم متن ساختگی با تولید سادگی
+                        </h6>
+                        <span class="fs-11 text-mello-gray"
+                          >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ، و
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="p-3">
+                    <div
+                      class="d-flex flex-column gap-2 overflow-hidden round-m"
+                    >
+                      <img
+                        src="./assets/image/books-forming-bridge-glasses.jpg"
+                        alt=""
+                        class="u-n"
+                      />
+                      <div>
+                        <span class="fs-11 text-mello-gray">لورم ایپسوم </span>
+                        <h6 class="text-white">
+                          لورم ایپسوم متن ساختگی با تولید سادگی
+                        </h6>
+                        <span class="fs-11 text-mello-gray"
+                          >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ، و
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="p-3">
+                    <div
+                      class="d-flex flex-column gap-2 overflow-hidden round-m"
+                    >
+                      <img
+                        src="./assets/image/books-forming-bridge-glasses.jpg"
+                        alt=""
+                        class="u-n"
+                      />
+                      <div>
+                        <span class="fs-11 text-mello-gray">لورم ایپسوم </span>
+                        <h6 class="text-white">
+                          لورم ایپسوم متن ساختگی با تولید سادگی
+                        </h6>
+                        <span class="fs-11 text-mello-gray"
+                          >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ، و
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-5 phone-show">
+          <div class="col-md-12"></div>
+        </div>
+      </div>
+    </div>
+    <!-- phone nav -->
+    <div class="container-fluid phone-show">
+      <div class="row">
+        <div class="phone-hidden-part-menu" id="phone-hidden">
+          <ul
+            class="list-unstyled d-flex flex-column mt-5 gap-3 align-items-center"
+          >
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="row phone-nav-pose">
+        <div class="col-md-12">
+          <nav class="nav-bar">
+            <ul
+              class="d-flex m-0 list-unstyled gap-2 p-0 bg-side border-top border-dark border-1 text-white gap-3 vw-100 justify-content-center align-items-center"
+              id="phone-nav-bar"
+            >
+              <li>
+                <a
+                  class="py-3 phone-nav-item fs-6 btn text-white d-flex align-items-center flex-column"
+                  href="./index.html"
+                >
+                  <span class="material-symbols-outlined"> home </span>
+                  <span>خانه</span>
+                </a>
+              </li>
+              <li
+                class="py-3 phone-nav-item btn fs-6 d-flex text-white align-items-center flex-column"
+                id="phone-nav-btn"
+              >
+                <span class="material-symbols-outlined"> category </span>
+                <span>دسته بندی</span>
+              </li>
+              <li>
+                <a
+                  class="py-3 phone-nav-item btn fs-6 text-white d-flex align-items-center flex-column"
+                  href="./page/cartFull.html"
+                >
+                  <span class="material-symbols-outlined"> shopping_cart </span>
+                  <span>سبد خرید</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./page/login.html"
+                  class="py-3 phone-nav-item btn fs-6 text-white d-flex align-items-center flex-column"
+                >
+                  <span class="material-symbols-outlined"> person </span>
+                  <span>پروفایل</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    lkjsadlk
+  </body>
+</html>

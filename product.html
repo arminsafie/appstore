@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" id="style-link" />
+    <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/swiper-bundle.min.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+    <script src="./assets/js/nav.js" defer></script>
+    <script src="./assets/js/darkMode.js" defer></script>
+    <script src="./assets/js/util.js" defer></script>
+    <title>App Store</title>
+  </head>
+  <body class="container-fluid bg-side">
+    <!-- phone search bar -->
+    <header
+      class="bg-side phone-show phone-search-bar py-3 border-bottom border-dark border-1"
+    >
+      <div class="row">
+        <div class="col-12 px-4">
+          <form action="" class="w-100 position-relative">
+            <input
+              type="text"
+              placeholder="جستوجو..."
+              class="border-0 bg-search ps-2 pe-5 text-white search_input w-100"
+            />
+            <span class="material-symbols-outlined search_icon text-white">
+              search
+            </span>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="row vh-100 main-phone-pos">
+      <div
+        class="col-2 phone-none border-end border-1 border-dark vh-100 bg-side overflow-y-scroll p-3 d-flex flex-column justify-content-between"
+      >
+        <ul class="list-unstyled">
+          <li>
+            <form action="" class="w-100 position-relative">
+              <input
+                type="text"
+                placeholder="جستوجو..."
+                class="border-0 bg-search ps-2 pe-5 text-white search_input w-100"
+              />
+              <span class="material-symbols-outlined search_icon text-white">
+                search
+              </span>
+            </form>
+          </li>
+          <li
+            class="d-flex align-items-center gap-2 mt-4 px-2 bg-side--item side--item c-p"
+          >
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 b side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+          <li class="d-flex align-items-center gap-2 px-2 side--item c-p">
+            <span class="material-symbols-outlined text-side--icon side--icon">
+              star
+            </span>
+            <span class="text-white">برترین ها</span>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-between gap-2">
+          <div class="c-p d-flex align-items-center gap-3">
+            <img
+              src="./assets/image/user.jpg"
+              class="user_photo rounded-circle u-n"
+              alt=""
+            />
+            <span class="text-white fw-bolder fs-9"> نام کاربری </span>
+          </div>
+          <div
+            id="dark-btn"
+            class="d-flex justify-content-center align-items-center"
+          >
+            <span
+              class="material-symbols-outlined text-warning c-p u-n"
+              id="l-btn"
+            >
+              wb_sunny
+            </span>
+            <span
+              class="material-symbols-outlined d-none text-p c-p u-n"
+              id="d-btn"
+            >
+              dark_mode
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-10 main-phone-pos px-md-5 bg-main vh-100 overflow-scroll"
+      >
+        <div class="row mt-4 phone-none">
+          <div class="col-2">
+            <img
+              src="./assets/image/word.png"
+              class="round-l w-50px shadow-lmode"
+              alt=""
+            />
+          </div>
+          <div class="col-10 d-flex flex-column gap-4 justify-content-center">
+            <div class="d-flex gap-1 flex-column">
+              <h1 class="text-white fs-4">لورم ایپسوم متن</h1>
+              <span class="text-mello-gray fs-11"
+                >لورم ایپسوم متن ساختگی با تولید
+              </span>
+            </div>
+            <div class="d-flex gap-1 align-items-center">
+              <button class="btn btn-primary rounded-pill fs-11 px-4">
+                دریافت
+              </button>
+              <span class="text-mello-gray fs-12">لورم ایپسوم </span>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 phone-show-flex">
+          <div class="col-3">
+            <img
+              src="./assets/image/word.png"
+              class="round-l w-50px shadow-lmode"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-9 d-flex gap-4 align-items-center justify-content-between justify-content-center"
+          >
+            <div class="d-flex gap-1 flex-column">
+              <h1 class="text-white fs-4">لورم ایپسوم متن</h1>
+              <span class="text-mello-gray fs-11"
+                >لورم ایپسوم متن ساختگی با تولید
+              </span>
+            </div>
+            <div class="d-flex gap-1 align-items-center flex-column">
+              <button class="btn btn-primary rounded-pill fs-11 px-4">
+                دریافت
+              </button>
+              <span class="text-mello-gray fs-12">لورم ایپسوم </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row mt-4 u-n py-3 border-t-samiGray-1-5px border-b-samiGray-1-5px"
+        >
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center gap-4"
+          >
+            <div
+              class="d-flex justify-content-center border-b-samiGray-1-5px-phone w-100-phone j-c-a gap-3 align-items-center flex-md-column"
+            >
+              <span class="fs-11 text-mello-gray"> لورم ایپسوم </span>
+              <div class="line-l h-100 phone-show"></div>
+              <h3 class="fw-bold fs-5 text-white m-0">4.3</h3>
+              <div class="line-l phone-show"></div>
+              <span class="fs-11 text-mello-gray"
+                >لورملورملورم لورم ایپسوم
+              </span>
+            </div>
+            <div class="line-l phone-none"></div>
+          </div>
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center gap-4"
+          >
+            <div
+              class="d-flex justify-content-center border-b-samiGray-1-5px-phone w-100-phone j-c-a gap-3 align-items-center flex-md-column"
+            >
+              <span class="fs-11 text-mello-gray"> لورم ایپسوم </span>
+              <div class="line-l h-100 phone-show"></div>
+              <h3 class="fw-bold fs-5 text-white m-0">4.3</h3>
+              <div class="line-l phone-show"></div>
+              <span class="fs-11 text-mello-gray"
+                >لورملورملورم لورم ایپسوم
+              </span>
+            </div>
+            <div class="line-l phone-none"></div>
+          </div>
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center gap-4"
+          >
+            <div
+              class="d-flex justify-content-center border-b-samiGray-1-5px-phone w-100-phone j-c-a gap-3 align-items-center flex-md-column"
+            >
+              <span class="fs-11 text-mello-gray"> لورم ایپسوم </span>
+              <div class="line-l h-100 phone-show"></div>
+              <h3 class="fw-bold fs-5 text-white m-0">4.3</h3>
+              <div class="line-l phone-show"></div>
+              <span class="fs-11 text-mello-gray"
+                >لورملورملورم لورم ایپسوم
+              </span>
+            </div>
+            <div class="line-l phone-none"></div>
+          </div>
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center gap-4"
+          >
+            <div
+              class="d-flex justify-content-center border-b-samiGray-1-5px-phone w-100-phone j-c-a gap-3 align-items-center flex-md-column"
+            >
+              <span class="fs-11 text-mello-gray"> لورم ایپسوم </span>
+              <div class="line-l h-100 phone-show"></div>
+              <h3 class="fw-bold fs-5 text-white m-0">4.3</h3>
+              <div class="line-l phone-show"></div>
+              <span class="fs-11 text-mello-gray"
+                >لورملورملورم لورم ایپسوم
+              </span>
+            </div>
+            <div class="line-l phone-none"></div>
+          </div>
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center gap-4"
+          >
+            <div
+              class="d-flex justify-content-center border-b-samiGray-1-5px-phone w-100-phone j-c-a gap-3 align-items-center flex-md-column"
+            >
+              <span class="fs-11 text-mello-gray"> لورم ایپسوم </span>
+              <div class="line-l h-100 phone-show"></div>
+              <h3 class="fw-bold fs-5 text-white m-0">4.3</h3>
+              <div class="line-l phone-show"></div>
+              <span class="fs-11 text-mello-gray"
+                >لورملورملورم لورم ایپسوم
+              </span>
+            </div>
+            <div class="line-l phone-none"></div>
+          </div>
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center gap-4"
+          >
+            <div
+              class="d-flex justify-content-center border-b-samiGray-1-5px-phone border-0 w-100-phone j-c-a gap-3 align-items-center flex-md-column"
+            >
+              <span class="fs-11 text-mello-gray"> لورم ایپسوم </span>
+              <div class="line-l h-100 phone-show"></div>
+              <h3 class="fw-bold fs-5 text-white m-0">4.3</h3>
+              <div class="line-l phone-show"></div>
+              <span class="fs-11 text-mello-gray"
+                >لورملورملورم لورم ایپسوم
+              </span>
+            </div>
+            <div class="line-l phone-none o-p-0"></div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12 mb-4">
+            <span class="fs-6 text-white">
+              لورم ایپسوم متن ساختگی با تولید
+            </span>
+          </div>
+          <div class="col-md-12">
+            <div class="swiper3 position-relative overflow-hidden">
+              <div class="swiper-wrapper py-4">
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <div class="row align-items-center">
+                      <div class="col-8 d-flex justify-content-between">
+                        <div class="d-flex gap-4 align-items-center">
+                          <img
+                            src="./assets/image/word.png"
+                            class="shadow-lmode round-m w-3rem"
+                            alt=""
+                          />
+                          <div class="d-flex flex-column gap-1 text-white">
+                            <span class="fs-8">لورم ایپسوم</span>
+                            <span class="text-mello-gray fs-9">لورم </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button
+                          class="btn text-primary btn-light px-3 fs-10 rounded-pill py-0"
+                        >
+                          دیدن
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12 pt-4 border-t-samiGray-1-5px">
+            <h3 class="fs-6 text-white">عکس ها</h3>
+          </div>
+          <div class="col-md-12 mt-3">
+            <div class="swiper2 position-relative overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/book-composition-with-open-book.jpg"
+                    class="img-fluid round-m"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/book-composition-with-open-book.jpg"
+                    class="img-fluid round-m"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/book-composition-with-open-book.jpg"
+                    class="img-fluid round-m"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/book-composition-with-open-book.jpg"
+                    class="img-fluid round-m"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide u-n">
+                  <img
+                    src="./assets/image/book-composition-with-open-book.jpg"
+                    class="img-fluid round-m"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12 pt-4 border-t-samiGray-1-5px">
+            <h3 class="fs-6 text-white">توضیحات</h3>
+          </div>
+          <div class="col-md-12 mt-4">
+            <div class="paragraph-container d-flex gap-5">
+              <p id="paragraph" class="fs-9 text-white">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را
+                برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در
+                زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را
+                برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در
+                زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+              <span
+                id="toggleButton"
+                class="fs-9 c-p align-self-end text-side--icon"
+                onclick="toggleParagraph()"
+              >
+                ادامه
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12 pt-4 border-t-samiGray-1-5px">
+            <h3 class="fs-6 text-white">نظرات</h3>
+          </div>
+          <div class="col-md-12 mt-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="swiper2 position-relative overflow-hidden">
+                  <div class="swiper-wrapper py-4">
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide u-n">
+                      <div class="">
+                        <div
+                          class="py-3 px-4 bg-commnet d-flex flex-column gap-3 round-m"
+                        >
+                          <div>
+                            <span class="fs-8 text-white fw-bolder"
+                              >لورم ایپسوم متن ساختگی
+                            </span>
+                            <div class="d-flex align-items-center gap-1">
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                              <span
+                                class="fs-6 c-p material-symbols-outlined text-warning"
+                              >
+                                star
+                              </span>
+                            </div>
+                          </div>
+                          <p class="text-white fs-10">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                            است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                            متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                            زیادی در شصت و سه درصد گذشته حال و آینده شناخت
+                            فراوان جامعه و متخصصان را می طلبد
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-5 phone-show">
+          <div class="col-md-12"></div>
+        </div>
+      </div>
+    </div>
+    <!-- phone nav -->
+    <div class="container-fluid phone-show">
+      <div class="row">
+        <div class="phone-hidden-part-menu" id="phone-hidden">
+          <ul
+            class="list-unstyled d-flex flex-column mt-5 gap-3 align-items-center"
+          >
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+            <a
+              href="./page/products.html"
+              class="py-2 text-white phone-hidden-item text-decoration-none"
+            >
+              لورم ایپسوم متن ساختگی با تولید
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="row phone-nav-pose">
+        <div class="col-md-12">
+          <nav class="nav-bar">
+            <ul
+              class="d-flex m-0 list-unstyled gap-2 p-0 bg-side border-top border-dark border-1 text-white gap-3 vw-100 justify-content-center align-items-center"
+              id="phone-nav-bar"
+            >
+              <li>
+                <a
+                  class="py-3 phone-nav-item fs-6 btn text-white d-flex align-items-center flex-column"
+                  href="./index.html"
+                >
+                  <span class="material-symbols-outlined"> home </span>
+                  <span>خانه</span>
+                </a>
+              </li>
+              <li
+                class="py-3 phone-nav-item btn fs-6 d-flex text-white align-items-center flex-column"
+                id="phone-nav-btn"
+              >
+                <span class="material-symbols-outlined"> category </span>
+                <span>دسته بندی</span>
+              </li>
+              <li>
+                <a
+                  class="py-3 phone-nav-item btn fs-6 text-white d-flex align-items-center flex-column"
+                  href="./page/cartFull.html"
+                >
+                  <span class="material-symbols-outlined"> shopping_cart </span>
+                  <span>سبد خرید</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./page/login.html"
+                  class="py-3 phone-nav-item btn fs-6 text-white d-flex align-items-center flex-column"
+                >
+                  <span class="material-symbols-outlined"> person </span>
+                  <span>پروفایل</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
